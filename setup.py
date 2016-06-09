@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='python-json',
+    name='jsoe',
     version='1.0',
-    py_modulesa=['python_json'],
+    py_modules=['jsoe'],
     install_requires=[
         'Click',
         'jsonschema'
     ],
     entry_points='''
         [console_scripts]
-        python_json=python_json:parse_json
+        jsoe=jsoe:parse_json
     '''
 )
