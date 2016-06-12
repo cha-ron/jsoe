@@ -36,7 +36,7 @@ def parse_json(target, schema, path, descend, one_line):
     if not one_line:
         print_object = pprint.pformat(print_object, width=1, compact=True)
 
-    click.echo(print_object)
+    click.echo(json.dumps(print_object))
 
 def switch_descend(json, descend):
     if isinstance(json, dict):
