@@ -2,7 +2,6 @@ from setuptools import setup
 
 setup(
     name='jsoe',
-    version='1.0',
     py_modules=['jsoe'],
     install_requires=[
         'Click',
